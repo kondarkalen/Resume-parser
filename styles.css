@@ -1,0 +1,65 @@
+.drop-zone {
+  border: 2px dashed #ccc;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.drop-zone.active {
+  border-color: #007bff;
+}
+
+.drop-zone.error {
+  border-color: #dc3545; /* Change border color to red */
+}
+
+.drop-zone label {
+  cursor: pointer;
+}
+
+.drop-zone input[type="file"] {
+  display: none;
+}
+
+.file-list {
+  margin-bottom: 20px; /* Add space between sections */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#submitButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submitButton:hover {
+  background-color: #0056b3;
+}
+
+/* CSS for the remove button */
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}

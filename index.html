@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Parser</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Resume Parser</h1>
+    <div id="jobDropZone" class="drop-zone">
+      <label for="jobFileInput"
+        >Drag & Drop job description file here or click to upload</label
+      >
+      <input type="file" id="jobFileInput" accept=".pdf" />
+    </div>
+    <div id="resumeDropZone" class="drop-zone">
+      <label for="resumeFileInput"
+        >Drag & Drop your resume file here or click to upload</label
+      >
+      <input type="file" id="resumeFileInput" accept=".pdf,.json" />
+    </div>
+    <div id="jobFilesList" class="file-list"></div>
+    <div id="resumeFilesList" class="file-list"></div>
+    <div class="button-container">
+      <button type="button" id="submitButton">Submit</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
