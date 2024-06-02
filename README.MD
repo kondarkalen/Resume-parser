@@ -34,7 +34,9 @@ We set up an NLP pipeline using spaCy, customized to extract key entities from r
 #### Scoring Methods
 - The scoring algorithm weighs the extracted resume data against the job criteria to produce a final score. 
 - This involves calculating the relevance of each data point and summing these to give an overall match score. 
-- This score will be then be used to rank the resumes with others if required. 
+- This score will be then be used to rank the resumes with others if required.
+- Set a threshold value to filter the resumes. 
+- **The threshold value can be adjusted according to the requirement and situation.**
 - Through this filtering process, the user can see if the candidate is eligible enough to be considered for the hiring process.
 
 ## Output:
