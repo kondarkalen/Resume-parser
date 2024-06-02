@@ -51,4 +51,4 @@ Stay tuned for more updates as we progress with our project!
 
 ---
 
-*For more information, visit our [GitHub repository](https://github.com/your-repository-link).*
+*For more information, visit our [GitHub repository](https://github.com/kondarkalen/Resume-parser).*
