@@ -1,1 +1,1 @@
-
+The objective of our project is to develop a sophisticated resume parsing system designed to assess candidate eligibility for job positions. This system will analyze resumes and evaluate candidates based on their alignment with the specified job requirements. The evaluation will be quantified through a scoring mechanism that objectively measures the degree of match between the candidate’s qualifications and the job criteria.
