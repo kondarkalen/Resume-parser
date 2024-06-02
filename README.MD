@@ -10,6 +10,8 @@ In today's competitive job market, efficiently and accurately matching candidate
 - **Job Requirement Matching:** Compare the extracted resume data with job requirements to determine eligibility.
 - **Scoring Mechanism:** Calculate a score that represents the alignment between the candidate’s profile and the job requirements.
 - **Automated Eligibility Assessment:** Provide a clear and concise evaluation of each candidate’s suitability for the position.
+-**Front-End Interface:** An intuitive web interface built using HTML, CSS, and JavaScript allows users to upload resumes and job descriptions for analysis.
+
 
 ## Implementation Details
 
