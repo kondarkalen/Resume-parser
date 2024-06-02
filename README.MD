@@ -37,7 +37,7 @@ We set up an NLP pipeline using spaCy, customized to extract key entities from r
 - This score will be then be used to rank the resumes with others if required.
 - Set a threshold value to filter the resumes. 
 
- **Note:** The threshold value can be adjusted according to the requirement and situation.
+   **Note:** The threshold value can be adjusted according to the requirement and situation.
 - Through this filtering process, the user can see if the candidate is eligible enough to be considered for the hiring process.
 
 ## Output:
