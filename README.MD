@@ -41,6 +41,7 @@ We set up an NLP pipeline using spaCy, customized to extract key entities from r
 The Generating Candidate Details function formats the results into a readable table.
 Displays candidate name, score, satisfied required skills, satisfied additional skills, not satisfied required skills, and not satisfied additional skills.
 
+**Sample Output**
 ![Output Screenshot](https://github.com/kondarkalen/Resume-parser/blob/main/ss/Screenshot%202024-06-03%20004240.png)
 
 ## Technologies Used
