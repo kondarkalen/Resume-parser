@@ -41,7 +41,7 @@ The main function integrates all components, from data extraction to scoring, an
 
 - **Integration with Job Portals:** Directly pull job descriptions and candidate resumes from popular job portals.
 - **Advanced Analytics:** Implement machine learning models to predict candidate success in specific roles.
-- **User Feedback Loop:** Continuously improve the matching algorithm based on feedback from hiring managers and recruiters.
+- **User Experience** Provide the best UI experience to our users accessing through website.
 
 ## Conclusion
 
