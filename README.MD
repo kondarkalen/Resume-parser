@@ -28,8 +28,6 @@ Using NLP techniques, we accurately extract and categorize information from resu
 #### Methods
 The scoring algorithm weighs the extracted resume data against the job criteria to produce a final score. This involves calculating the relevance of each data point and summing these to give an overall match score.
 
-### Main
-The main function integrates all components, from data extraction to scoring, and outputs a comprehensive evaluation report for each candidate.
 
 ## Technologies Used
 
