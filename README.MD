@@ -12,23 +12,34 @@ In today's competitive job market, efficiently and accurately matching candidate
 - **Automated Eligibility Assessment:** Provide a clear and concise evaluation of each candidate’s suitability for the position.
 - **Front-End Interface:** An intuitive web interface built using HTML, CSS, and JavaScript allows users to upload resumes and job descriptions for analysis.
 
+**NOTE:** The resumes used in the dataset which have been used for training are real life documents and have been procured with consent of the owners of the resume document and we cannot provide it to be used publicly.
 
 ## Implementation Details
 
 ### Library Imports
-To start the project, we import essential libraries such as `spaCy` for natural language processing (NLP).
+To start the project, we import essential libraries such as `spaCy` for natural language processing (NLP) task.
 
 ### Loading and Setting Up the Pipeline
 We set up an NLP pipeline using spaCy, customized to extract key entities from resumes. This pipeline is trained to recognize education, experience, skills, and other relevant details.
 
 ### Data Extraction and Score Calculation
-We implement methods to extract structured data from unstructured resume content. The extracted data is then compared against the predefined job requirements to calculate a compatibility score.
+- We implemented methods to extract structured data from unstructured resume content. The extracted data is then compared against the predefined Job Requirements to calculate a compatibility score. 
+- The model is capable of handling multiple types of input such as .pdf, .docx, .txt.
 
 #### Data Extraction Methods
-Using NLP techniques, we accurately extract and categorize information from resumes. This includes identifying specific skills, years of experience, educational background, and certifications.
+- We process the resumes using NLP techniques, we accurately extract and categorize information from resumes. 
+- This includes identifying specific skills, years of experience, educational background, and certifications.
+- Matches extracted skills with job requirements.
 
-#### Methods
-The scoring algorithm weighs the extracted resume data against the job criteria to produce a final score. This involves calculating the relevance of each data point and summing these to give an overall match score.
+#### Scoring Methods
+- The scoring algorithm weighs the extracted resume data against the job criteria to produce a final score. 
+- This involves calculating the relevance of each data point and summing these to give an overall match score. 
+- This score will be then be used to rank the resumes with others if required. 
+- Through this filtering process, the user can see if the candidate is eligible enough to be considered for the hiring process.
+
+## Output:
+The Generating Candidate Details function formats the results into a readable table.
+Displays candidate name, score, satisfied required skills, satisfied additional skills, not satisfied required skills, and not satisfied additional skills.
 
 
 ## Technologies Used
