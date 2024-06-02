@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In today's competitive job market, efficiently and accurately matching candidates with job requirements is essential for both employers and job seekers. Our project aims to develop a sophisticated resume parsing system designed to assess candidate eligibility for job positions. This system will analyze resumes and evaluate candidates based on their alignment with the specified job requirements. The evaluation will be quantified through a scoring mechanism that objectively measures the degree of match between the candidate’s qualifications and the job criteria.
+In today's competitive job market, efficiently and accurately matching candidates with job requirements is essential for both employers and job seekers. Our project aims to develop a sophisticated resume parsing system accessible through a website designed to assess candidate eligibility for job positions. This system will analyze resumes and evaluate candidates based on their alignment with the specified job requirements. The evaluation will be quantified through a scoring mechanism that objectively measures the degree of match between the candidate’s qualifications and the job criteria.
 
 ## Key Features
 
@@ -16,7 +16,7 @@ In today's competitive job market, efficiently and accurately matching candidate
 ## Implementation Details
 
 ### Library Imports
-To start the project, we import essential libraries such as `spaCy` and `NLTK` for natural language processing (NLP), and `Scikit-learn` for machine learning algorithms.
+To start the project, we import essential libraries such as `spaCy` for natural language processing (NLP).
 
 ### Loading and Setting Up the Pipeline
 We set up an NLP pipeline using spaCy, customized to extract key entities from resumes. This pipeline is trained to recognize education, experience, skills, and other relevant details.
